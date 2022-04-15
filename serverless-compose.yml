@@ -1,0 +1,8 @@
+services:
+
+  products:
+    path: products
+
+  orders:
+    path: orders
+    dependsOn: products
